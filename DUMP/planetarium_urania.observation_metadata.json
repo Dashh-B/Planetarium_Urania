@@ -1,0 +1,1388 @@
+[{
+  "_id": {
+    "$oid": "69cc0ace9a09d529e6b7470e"
+  },
+  "observation_id": {
+    "$numberInt": "1"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979790969"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979790969"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-3.5"
+    },
+    "humidity": {
+      "$numberInt": "68"
+    },
+    "pressure": {
+      "$numberDouble": "758.3"
+    },
+    "wind_speed": {
+      "$numberDouble": "2.1"
+    },
+    "cloud_coverage": {
+      "$numberInt": "15"
+    },
+    "seeing_quality": "Хорошее",
+    "transparency": "Отличная"
+  },
+  "photography_settings": {
+    "camera_model": "Canon EOS 6D Mark II",
+    "exposure_time": {
+      "$numberDouble": "0.004"
+    },
+    "iso": {
+      "$numberInt": "400"
+    },
+    "filter": "Без фильтра",
+    "frames_count": {
+      "$numberInt": "120"
+    },
+    "stacking_method": "Registax 6"
+  },
+  "photos": [
+    {
+      "filename": "Moon_Tycho_20260115_2105.jpg",
+      "description": "Кратер Тихо крупным планом",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1768500300000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "8547236"
+      },
+      "resolution": "4608x3072"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Отличное наблюдение лунной поверхности. Видимость превосходная, атмосфера спокойная. Кратеры: Тихо с лучами, Коперник с центральной горкой, Море Ясности с четкими границами. Участники (школьники 8-9 классов) были в восторге. Провели образовательную беседу о формировании кратеров.",
+  "additional_participants": [
+    "Школа №1234, 8 класс (15 учеников)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b7470f"
+  },
+  "observation_id": {
+    "$numberInt": "2"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791010"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791010"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-5.2"
+    },
+    "humidity": {
+      "$numberInt": "72"
+    },
+    "pressure": {
+      "$numberDouble": "761.8"
+    },
+    "wind_speed": {
+      "$numberDouble": "1.5"
+    },
+    "cloud_coverage": {
+      "$numberInt": "0"
+    },
+    "seeing_quality": "Отличное",
+    "transparency": "Отличная"
+  },
+  "photography_settings": {
+    "camera_model": "ZWO ASI294MC Pro",
+    "exposure_time": {
+      "$numberDouble": "0.05"
+    },
+    "iso": {
+      "$numberInt": "800"
+    },
+    "filter": "IR-Cut",
+    "frames_count": {
+      "$numberInt": "5000"
+    },
+    "stacking_method": "AutoStakkert! 3"
+  },
+  "photos": [
+    {
+      "filename": "Saturn_Rings_20260118_2235.jpg",
+      "description": "Сатурн с кольцами, деление Кассини",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1768764900000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "12456789"
+      },
+      "resolution": "2048x2048"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Исключительно благоприятные условия для наблюдения Сатурна. Кольца видны превосходно - отчетливо различимо деление Кассини. Спутник Титан виден в 8 часах от планеты. Проведена планетарная видеосъемка с последующим стэкингом.",
+  "additional_participants": [
+    "Клуб любителей астрономии (12 человек)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b74710"
+  },
+  "observation_id": {
+    "$numberInt": "3"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791011"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791011"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-2.8"
+    },
+    "humidity": {
+      "$numberInt": "65"
+    },
+    "pressure": {
+      "$numberDouble": "755.4"
+    },
+    "wind_speed": {
+      "$numberDouble": "3.2"
+    },
+    "cloud_coverage": {
+      "$numberInt": "10"
+    },
+    "seeing_quality": "Хорошее",
+    "transparency": "Хорошая"
+  },
+  "photography_settings": {
+    "camera_model": "Nikon D850",
+    "exposure_time": {
+      "$numberDouble": "120.0"
+    },
+    "iso": {
+      "$numberInt": "1600"
+    },
+    "filter": "L-eNhance (двухполосный)",
+    "frames_count": {
+      "$numberInt": "25"
+    },
+    "stacking_method": "DeepSkyStacker"
+  },
+  "photos": [
+    {
+      "filename": "M42_Orion_Wide_20260120_2015.jpg",
+      "description": "Туманность Ориона, широкое поле",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1768929300000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "25678901"
+      },
+      "resolution": "7360x4912"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Образовательное групповое наблюдение туманности Ориона (M42). Трапеция Ориона отчетливо различима. Зеленоватое свечение ионизированного кислорода и красноватые области водорода. Для школьников это было первое знакомство с объектами дальнего космоса.",
+  "additional_participants": [
+    "Лицей №5, астрономический кружок (25 учеников)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b74711"
+  },
+  "observation_id": {
+    "$numberInt": "4"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791012"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791012"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-7.1"
+    },
+    "humidity": {
+      "$numberInt": "58"
+    },
+    "pressure": {
+      "$numberDouble": "765.2"
+    },
+    "wind_speed": {
+      "$numberDouble": "0.8"
+    },
+    "cloud_coverage": {
+      "$numberInt": "0"
+    },
+    "seeing_quality": "Отличное",
+    "transparency": "Превосходная"
+  },
+  "photography_settings": {
+    "camera_model": "Canon EOS Ra (астромодификация)",
+    "exposure_time": {
+      "$numberDouble": "300.0"
+    },
+    "iso": {
+      "$numberInt": "800"
+    },
+    "filter": "IDAS LPS-D2",
+    "frames_count": {
+      "$numberInt": "40"
+    },
+    "stacking_method": "PixInsight"
+  },
+  "photos": [
+    {
+      "filename": "M31_Andromeda_Stack_20260122_2330.jpg",
+      "description": "Галактика Андромеды, финальный стэк 40 кадров",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769113800000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "48567890"
+      },
+      "resolution": "9504x6336"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Научное наблюдение и фотометрия галактики Андромеды (M31). Новолуние, идеальные условия. Различимы спиральные рукава, две карликовые галактики-спутники M32 и M110. Проведена серия калиброванных экспозиций для фотометрии.",
+  "additional_participants": [
+    "Научная группа МГУ (3 аспиранта)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b74712"
+  },
+  "observation_id": {
+    "$numberInt": "5"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791013"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791013"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-1.5"
+    },
+    "humidity": {
+      "$numberInt": "70"
+    },
+    "pressure": {
+      "$numberDouble": "752.1"
+    },
+    "wind_speed": {
+      "$numberDouble": "4.5"
+    },
+    "cloud_coverage": {
+      "$numberInt": "25"
+    },
+    "seeing_quality": "Среднее",
+    "transparency": "Средняя"
+  },
+  "photography_settings": {
+    "camera_model": "ZWO ASI224MC",
+    "exposure_time": {
+      "$numberDouble": "0.02"
+    },
+    "iso": {
+      "$numberInt": "400"
+    },
+    "filter": "UV/IR-Cut",
+    "frames_count": {
+      "$numberInt": "3000"
+    },
+    "stacking_method": "AutoStakkert! 3 + WinJUPOS"
+  },
+  "photos": [
+    {
+      "filename": "Jupiter_GRS_20260125_1945.jpg",
+      "description": "Юпитер с Большим Красным Пятном",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769359500000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "6789012"
+      },
+      "resolution": "1920x1920"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Публичное наблюдение Юпитера и его галилеевых спутников. Большое Красное Пятно на центральном меридиане. Транзит спутника Ио по диску. Все четыре галилеевых спутника видны. Заметное смещение деталей за 30 минут благодаря быстрому вращению.",
+  "additional_participants": [
+    "Посетители планетария (8 человек)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b74713"
+  },
+  "observation_id": {
+    "$numberInt": "6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791013"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791013"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-4.2"
+    },
+    "humidity": {
+      "$numberInt": "63"
+    },
+    "pressure": {
+      "$numberDouble": "759.7"
+    },
+    "wind_speed": {
+      "$numberDouble": "2.0"
+    },
+    "cloud_coverage": {
+      "$numberInt": "5"
+    },
+    "seeing_quality": "Хорошее",
+    "transparency": "Отличная"
+  },
+  "photography_settings": {
+    "camera_model": "Sony A7S III",
+    "exposure_time": {
+      "$numberDouble": "60.0"
+    },
+    "iso": {
+      "$numberInt": "3200"
+    },
+    "filter": "Без фильтра",
+    "frames_count": {
+      "$numberInt": "15"
+    },
+    "stacking_method": "Median combine"
+  },
+  "photos": [
+    {
+      "filename": "M45_Pleiades_Wide_20260127_2115.jpg",
+      "description": "Плеяды широкое поле с туманностью",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769537700000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "34567890"
+      },
+      "resolution": "6000x4000"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Публичное наблюдение рассеянного скопления Плеяды (M45, Семь Сестер). В телескоп разрешено более 20 звезд. Голубоватая отражательная туманность вокруг ярчайших звезд. Молодое скопление, возраст около 100 млн лет.",
+  "additional_participants": [
+    "Группа туристов (18 чел.)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b74714"
+  },
+  "observation_id": {
+    "$numberInt": "7"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791014"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791014"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-6.8"
+    },
+    "humidity": {
+      "$numberInt": "55"
+    },
+    "pressure": {
+      "$numberDouble": "763.5"
+    },
+    "wind_speed": {
+      "$numberDouble": "1.2"
+    },
+    "cloud_coverage": {
+      "$numberInt": "0"
+    },
+    "seeing_quality": "Хорошее",
+    "transparency": "Хорошая"
+  },
+  "photography_settings": {
+    "camera_model": "ZWO ASI462MC",
+    "exposure_time": {
+      "$numberDouble": "0.01"
+    },
+    "iso": {
+      "$numberInt": "200"
+    },
+    "filter": "RGB",
+    "frames_count": {
+      "$numberInt": "8000"
+    },
+    "stacking_method": "AutoStakkert! + RGB композит"
+  },
+  "photos": [
+    {
+      "filename": "Mars_PolarCap_20260128_2215.jpg",
+      "description": "Марс с северной полярной шапкой",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769627700000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "3456789"
+      },
+      "resolution": "1024x1024"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Образовательное наблюдение Марса. Северная полярная шапка отчетливо видна. Большой Сирт - огромное плато вулканического происхождения. Размер полярной шапки уменьшился - на Марсе северное лето.",
+  "additional_participants": [
+    "Гимназия №7, класс астрономии (10 учеников)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b74715"
+  },
+  "observation_id": {
+    "$numberInt": "8"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791015"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791015"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-3.2"
+    },
+    "humidity": {
+      "$numberInt": "68"
+    },
+    "pressure": {
+      "$numberDouble": "757.3"
+    },
+    "wind_speed": {
+      "$numberDouble": "3.8"
+    },
+    "cloud_coverage": {
+      "$numberInt": "15"
+    },
+    "seeing_quality": "Отличное",
+    "transparency": "Превосходная"
+  },
+  "photography_settings": {
+    "camera_model": "Canon EOS 90D",
+    "exposure_time": {
+      "$numberDouble": "2.0"
+    },
+    "iso": {
+      "$numberInt": "800"
+    },
+    "filter": "Без фильтра",
+    "frames_count": {
+      "$numberInt": "50"
+    },
+    "stacking_method": "Median в IRIS"
+  },
+  "photos": [],
+  "measurements": {},
+  "detailed_notes": "Публичное наблюдение Сириуса - ярчайшей звезды ночного неба. Визуально-двойная звезда. Сириус А ослепительно яркий, белого цвета с голубоватым оттенком. Мерцание и переливы всеми цветами радуги из-за атмосферной рефракции.",
+  "additional_participants": [
+    "Любители астрономии (14 чел.)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b74716"
+  },
+  "observation_id": {
+    "$numberInt": "9"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791016"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791016"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-8.5"
+    },
+    "humidity": {
+      "$numberInt": "52"
+    },
+    "pressure": {
+      "$numberDouble": "768.1"
+    },
+    "wind_speed": {
+      "$numberDouble": "0.5"
+    },
+    "cloud_coverage": {
+      "$numberInt": "0"
+    },
+    "seeing_quality": "Отличное",
+    "transparency": "Превосходная"
+  },
+  "photography_settings": {
+    "camera_model": "SBIG STL-11000M (монохромная)",
+    "exposure_time": {
+      "$numberDouble": "600.0"
+    },
+    "iso": null,
+    "filter": "Ha + [OIII] narrowband",
+    "frames_count": {
+      "$numberInt": "12"
+    },
+    "stacking_method": "PixInsight + HOO композит"
+  },
+  "photos": [
+    {
+      "filename": "M1_Crab_HOO_20260131_0115.jpg",
+      "description": "Крабовидная туманность HOO композит",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769811300000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "52345678"
+      },
+      "resolution": "4008x2672"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Научная фотосессия Крабовидной туманности (M1) - остатка сверхновой 1054 года. Волокнистая структура. В центре пульсар с периодом 33 мс. Использована узкополосная фильтрация H-alpha и [OIII]. Цель - образовательная выставка.",
+  "additional_participants": [
+    "Астрофотограф Новиков П.Д."
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0acf9a09d529e6b74717"
+  },
+  "observation_id": {
+    "$numberInt": "10"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774979791017"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774979791017"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-2.1"
+    },
+    "humidity": {
+      "$numberInt": "75"
+    },
+    "pressure": {
+      "$numberDouble": "751.8"
+    },
+    "wind_speed": {
+      "$numberDouble": "5.2"
+    },
+    "cloud_coverage": {
+      "$numberInt": "30"
+    },
+    "seeing_quality": "Среднее",
+    "transparency": "Средняя"
+  },
+  "photography_settings": {
+    "camera_model": "ZWO ASI290MM + Baader RGB",
+    "exposure_time": {
+      "$numberDouble": "0.005"
+    },
+    "iso": {
+      "$numberInt": "100"
+    },
+    "filter": "RGB серия + UV",
+    "frames_count": {
+      "$numberInt": "2000"
+    },
+    "stacking_method": "AutoStakkert! + WinJUPOS"
+  },
+  "photos": [
+    {
+      "filename": "Venus_RGB_20260131_2145.jpg",
+      "description": "Венера в фазе, RGB композит",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769885100000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "4567890"
+      },
+      "resolution": "1936x1216"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Публичное наблюдение Венеры - ярчайшей планеты, 'вечерней звезды'. Венера в фазе серповидной Луны (0.48). Диск белый с желтоватым оттенком - плотный слой облаков из серной кислоты. Сделана серия УФ-снимков для выявления структур.",
+  "additional_participants": [
+    "Посетители вечерней программы (9 чел.)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf30"
+  },
+  "observation_id": {
+    "$numberInt": "1"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015711"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015711"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-3.5"
+    },
+    "humidity": {
+      "$numberInt": "68"
+    },
+    "pressure": {
+      "$numberDouble": "758.3"
+    },
+    "wind_speed": {
+      "$numberDouble": "2.1"
+    },
+    "cloud_coverage": {
+      "$numberInt": "15"
+    },
+    "seeing_quality": "Хорошее",
+    "transparency": "Отличная"
+  },
+  "photography_settings": {
+    "camera_model": "Canon EOS 6D Mark II",
+    "exposure_time": {
+      "$numberDouble": "0.004"
+    },
+    "iso": {
+      "$numberInt": "400"
+    },
+    "filter": "Без фильтра",
+    "frames_count": {
+      "$numberInt": "120"
+    },
+    "stacking_method": "Registax 6"
+  },
+  "photos": [
+    {
+      "filename": "Moon_Tycho_20260115_2105.jpg",
+      "description": "Кратер Тихо крупным планом",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1768500300000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "8547236"
+      },
+      "resolution": "4608x3072"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Отличное наблюдение лунной поверхности. Видимость превосходная, атмосфера спокойная. Кратеры: Тихо с лучами, Коперник с центральной горкой, Море Ясности с четкими границами. Участники (школьники 8-9 классов) были в восторге. Провели образовательную беседу о формировании кратеров.",
+  "additional_participants": [
+    "Школа №1234, 8 класс (15 учеников)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf31"
+  },
+  "observation_id": {
+    "$numberInt": "2"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015748"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015748"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-5.2"
+    },
+    "humidity": {
+      "$numberInt": "72"
+    },
+    "pressure": {
+      "$numberDouble": "761.8"
+    },
+    "wind_speed": {
+      "$numberDouble": "1.5"
+    },
+    "cloud_coverage": {
+      "$numberInt": "0"
+    },
+    "seeing_quality": "Отличное",
+    "transparency": "Отличная"
+  },
+  "photography_settings": {
+    "camera_model": "ZWO ASI294MC Pro",
+    "exposure_time": {
+      "$numberDouble": "0.05"
+    },
+    "iso": {
+      "$numberInt": "800"
+    },
+    "filter": "IR-Cut",
+    "frames_count": {
+      "$numberInt": "5000"
+    },
+    "stacking_method": "AutoStakkert! 3"
+  },
+  "photos": [
+    {
+      "filename": "Saturn_Rings_20260118_2235.jpg",
+      "description": "Сатурн с кольцами, деление Кассини",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1768764900000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "12456789"
+      },
+      "resolution": "2048x2048"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Исключительно благоприятные условия для наблюдения Сатурна. Кольца видны превосходно - отчетливо различимо деление Кассини. Спутник Титан виден в 8 часах от планеты. Проведена планетарная видеосъемка с последующим стэкингом.",
+  "additional_participants": [
+    "Клуб любителей астрономии (12 человек)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf32"
+  },
+  "observation_id": {
+    "$numberInt": "3"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015750"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015750"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-2.8"
+    },
+    "humidity": {
+      "$numberInt": "65"
+    },
+    "pressure": {
+      "$numberDouble": "755.4"
+    },
+    "wind_speed": {
+      "$numberDouble": "3.2"
+    },
+    "cloud_coverage": {
+      "$numberInt": "10"
+    },
+    "seeing_quality": "Хорошее",
+    "transparency": "Хорошая"
+  },
+  "photography_settings": {
+    "camera_model": "Nikon D850",
+    "exposure_time": {
+      "$numberDouble": "120.0"
+    },
+    "iso": {
+      "$numberInt": "1600"
+    },
+    "filter": "L-eNhance (двухполосный)",
+    "frames_count": {
+      "$numberInt": "25"
+    },
+    "stacking_method": "DeepSkyStacker"
+  },
+  "photos": [
+    {
+      "filename": "M42_Orion_Wide_20260120_2015.jpg",
+      "description": "Туманность Ориона, широкое поле",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1768929300000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "25678901"
+      },
+      "resolution": "7360x4912"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Образовательное групповое наблюдение туманности Ориона (M42). Трапеция Ориона отчетливо различима. Зеленоватое свечение ионизированного кислорода и красноватые области водорода. Для школьников это было первое знакомство с объектами дальнего космоса.",
+  "additional_participants": [
+    "Лицей №5, астрономический кружок (25 учеников)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf33"
+  },
+  "observation_id": {
+    "$numberInt": "4"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015750"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015750"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-7.1"
+    },
+    "humidity": {
+      "$numberInt": "58"
+    },
+    "pressure": {
+      "$numberDouble": "765.2"
+    },
+    "wind_speed": {
+      "$numberDouble": "0.8"
+    },
+    "cloud_coverage": {
+      "$numberInt": "0"
+    },
+    "seeing_quality": "Отличное",
+    "transparency": "Превосходная"
+  },
+  "photography_settings": {
+    "camera_model": "Canon EOS Ra (астромодификация)",
+    "exposure_time": {
+      "$numberDouble": "300.0"
+    },
+    "iso": {
+      "$numberInt": "800"
+    },
+    "filter": "IDAS LPS-D2",
+    "frames_count": {
+      "$numberInt": "40"
+    },
+    "stacking_method": "PixInsight"
+  },
+  "photos": [
+    {
+      "filename": "M31_Andromeda_Stack_20260122_2330.jpg",
+      "description": "Галактика Андромеды, финальный стэк 40 кадров",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769113800000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "48567890"
+      },
+      "resolution": "9504x6336"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Научное наблюдение и фотометрия галактики Андромеды (M31). Новолуние, идеальные условия. Различимы спиральные рукава, две карликовые галактики-спутники M32 и M110. Проведена серия калиброванных экспозиций для фотометрии.",
+  "additional_participants": [
+    "Научная группа МГУ (3 аспиранта)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf34"
+  },
+  "observation_id": {
+    "$numberInt": "5"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015751"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015751"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-1.5"
+    },
+    "humidity": {
+      "$numberInt": "70"
+    },
+    "pressure": {
+      "$numberDouble": "752.1"
+    },
+    "wind_speed": {
+      "$numberDouble": "4.5"
+    },
+    "cloud_coverage": {
+      "$numberInt": "25"
+    },
+    "seeing_quality": "Среднее",
+    "transparency": "Средняя"
+  },
+  "photography_settings": {
+    "camera_model": "ZWO ASI224MC",
+    "exposure_time": {
+      "$numberDouble": "0.02"
+    },
+    "iso": {
+      "$numberInt": "400"
+    },
+    "filter": "UV/IR-Cut",
+    "frames_count": {
+      "$numberInt": "3000"
+    },
+    "stacking_method": "AutoStakkert! 3 + WinJUPOS"
+  },
+  "photos": [
+    {
+      "filename": "Jupiter_GRS_20260125_1945.jpg",
+      "description": "Юпитер с Большим Красным Пятном",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769359500000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "6789012"
+      },
+      "resolution": "1920x1920"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Публичное наблюдение Юпитера и его галилеевых спутников. Большое Красное Пятно на центральном меридиане. Транзит спутника Ио по диску. Все четыре галилеевых спутника видны. Заметное смещение деталей за 30 минут благодаря быстрому вращению.",
+  "additional_participants": [
+    "Посетители планетария (8 человек)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf35"
+  },
+  "observation_id": {
+    "$numberInt": "6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015751"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015751"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-4.2"
+    },
+    "humidity": {
+      "$numberInt": "63"
+    },
+    "pressure": {
+      "$numberDouble": "759.7"
+    },
+    "wind_speed": {
+      "$numberDouble": "2.0"
+    },
+    "cloud_coverage": {
+      "$numberInt": "5"
+    },
+    "seeing_quality": "Хорошее",
+    "transparency": "Отличная"
+  },
+  "photography_settings": {
+    "camera_model": "Sony A7S III",
+    "exposure_time": {
+      "$numberDouble": "60.0"
+    },
+    "iso": {
+      "$numberInt": "3200"
+    },
+    "filter": "Без фильтра",
+    "frames_count": {
+      "$numberInt": "15"
+    },
+    "stacking_method": "Median combine"
+  },
+  "photos": [
+    {
+      "filename": "M45_Pleiades_Wide_20260127_2115.jpg",
+      "description": "Плеяды широкое поле с туманностью",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769537700000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "34567890"
+      },
+      "resolution": "6000x4000"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Публичное наблюдение рассеянного скопления Плеяды (M45, Семь Сестер). В телескоп разрешено более 20 звезд. Голубоватая отражательная туманность вокруг ярчайших звезд. Молодое скопление, возраст около 100 млн лет.",
+  "additional_participants": [
+    "Группа туристов (18 чел.)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf36"
+  },
+  "observation_id": {
+    "$numberInt": "7"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015752"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015752"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-6.8"
+    },
+    "humidity": {
+      "$numberInt": "55"
+    },
+    "pressure": {
+      "$numberDouble": "763.5"
+    },
+    "wind_speed": {
+      "$numberDouble": "1.2"
+    },
+    "cloud_coverage": {
+      "$numberInt": "0"
+    },
+    "seeing_quality": "Хорошее",
+    "transparency": "Хорошая"
+  },
+  "photography_settings": {
+    "camera_model": "ZWO ASI462MC",
+    "exposure_time": {
+      "$numberDouble": "0.01"
+    },
+    "iso": {
+      "$numberInt": "200"
+    },
+    "filter": "RGB",
+    "frames_count": {
+      "$numberInt": "8000"
+    },
+    "stacking_method": "AutoStakkert! + RGB композит"
+  },
+  "photos": [
+    {
+      "filename": "Mars_PolarCap_20260128_2215.jpg",
+      "description": "Марс с северной полярной шапкой",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769627700000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "3456789"
+      },
+      "resolution": "1024x1024"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Образовательное наблюдение Марса. Северная полярная шапка отчетливо видна. Большой Сирт - огромное плато вулканического происхождения. Размер полярной шапки уменьшился - на Марсе северное лето.",
+  "additional_participants": [
+    "Гимназия №7, класс астрономии (10 учеников)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf37"
+  },
+  "observation_id": {
+    "$numberInt": "8"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015753"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015753"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-3.2"
+    },
+    "humidity": {
+      "$numberInt": "68"
+    },
+    "pressure": {
+      "$numberDouble": "757.3"
+    },
+    "wind_speed": {
+      "$numberDouble": "3.8"
+    },
+    "cloud_coverage": {
+      "$numberInt": "15"
+    },
+    "seeing_quality": "Отличное",
+    "transparency": "Превосходная"
+  },
+  "photography_settings": {
+    "camera_model": "Canon EOS 90D",
+    "exposure_time": {
+      "$numberDouble": "2.0"
+    },
+    "iso": {
+      "$numberInt": "800"
+    },
+    "filter": "Без фильтра",
+    "frames_count": {
+      "$numberInt": "50"
+    },
+    "stacking_method": "Median в IRIS"
+  },
+  "photos": [],
+  "measurements": {},
+  "detailed_notes": "Публичное наблюдение Сириуса - ярчайшей звезды ночного неба. Визуально-двойная звезда. Сириус А ослепительно яркий, белого цвета с голубоватым оттенком. Мерцание и переливы всеми цветами радуги из-за атмосферной рефракции.",
+  "additional_participants": [
+    "Любители астрономии (14 чел.)"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf38"
+  },
+  "observation_id": {
+    "$numberInt": "9"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015753"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015753"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-8.5"
+    },
+    "humidity": {
+      "$numberInt": "52"
+    },
+    "pressure": {
+      "$numberDouble": "768.1"
+    },
+    "wind_speed": {
+      "$numberDouble": "0.5"
+    },
+    "cloud_coverage": {
+      "$numberInt": "0"
+    },
+    "seeing_quality": "Отличное",
+    "transparency": "Превосходная"
+  },
+  "photography_settings": {
+    "camera_model": "SBIG STL-11000M (монохромная)",
+    "exposure_time": {
+      "$numberDouble": "600.0"
+    },
+    "iso": null,
+    "filter": "Ha + [OIII] narrowband",
+    "frames_count": {
+      "$numberInt": "12"
+    },
+    "stacking_method": "PixInsight + HOO композит"
+  },
+  "photos": [
+    {
+      "filename": "M1_Crab_HOO_20260131_0115.jpg",
+      "description": "Крабовидная туманность HOO композит",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769811300000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "52345678"
+      },
+      "resolution": "4008x2672"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Научная фотосессия Крабовидной туманности (M1) - остатка сверхновой 1054 года. Волокнистая структура. В центре пульсар с периодом 33 мс. Использована узкополосная фильтрация H-alpha и [OIII]. Цель - образовательная выставка.",
+  "additional_participants": [
+    "Астрофотограф Новиков П.Д."
+  ]
+},
+{
+  "_id": {
+    "$oid": "69cc0baf8f46f2ffb881cf39"
+  },
+  "observation_id": {
+    "$numberInt": "10"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1774980015755"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1774980015755"
+    }
+  },
+  "weather_details": {
+    "temperature": {
+      "$numberDouble": "-2.1"
+    },
+    "humidity": {
+      "$numberInt": "75"
+    },
+    "pressure": {
+      "$numberDouble": "751.8"
+    },
+    "wind_speed": {
+      "$numberDouble": "5.2"
+    },
+    "cloud_coverage": {
+      "$numberInt": "30"
+    },
+    "seeing_quality": "Среднее",
+    "transparency": "Средняя"
+  },
+  "photography_settings": {
+    "camera_model": "ZWO ASI290MM + Baader RGB",
+    "exposure_time": {
+      "$numberDouble": "0.005"
+    },
+    "iso": {
+      "$numberInt": "100"
+    },
+    "filter": "RGB серия + UV",
+    "frames_count": {
+      "$numberInt": "2000"
+    },
+    "stacking_method": "AutoStakkert! + WinJUPOS"
+  },
+  "photos": [
+    {
+      "filename": "Venus_RGB_20260131_2145.jpg",
+      "description": "Венера в фазе, RGB композит",
+      "timestamp": {
+        "$date": {
+          "$numberLong": "1769885100000"
+        }
+      },
+      "file_size": {
+        "$numberLong": "4567890"
+      },
+      "resolution": "1936x1216"
+    }
+  ],
+  "measurements": {},
+  "detailed_notes": "Публичное наблюдение Венеры - ярчайшей планеты, 'вечерней звезды'. Венера в фазе серповидной Луны (0.48). Диск белый с желтоватым оттенком - плотный слой облаков из серной кислоты. Сделана серия УФ-снимков для выявления структур.",
+  "additional_participants": [
+    "Посетители вечерней программы (9 чел.)"
+  ]
+}]
