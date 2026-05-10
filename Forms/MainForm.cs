@@ -184,6 +184,12 @@ public class MainForm : Form
                 MessageBoxButtons.OK, MessageBoxIcon.Warning);
             return;
         }
+        if (!dgvPrograms.Columns.Contains("ID"))
+        {
+            MessageBox.Show("Переключитесь в режим «Список программ» для редактирования.",
+                "Недоступно", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            return;
+        }
         var row = dgvPrograms.SelectedRows[0];
         var form = new ProgramForm(
             Convert.ToInt32(row.Cells["ID"].Value),

@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict NcFnhyOwMfvdROZXgNLmJrHSzk1SqiPTmMhQ9uezqekoHpgjTzCfYkKgzkDAvnd
+\restrict BgpwSenhQPRQLyKBskreVbl33CVX1eTPpjecytOmIYiMRBRvEi1laeXlrqoM1ll
 
 -- Dumped from database version 18.2
 -- Dumped by pg_dump version 18.2
@@ -643,6 +643,7 @@ COPY public.observations (id, observation_date, observation_time, telescope_id, 
 8	2026-01-29	20:30:00	1	9	5	отличная прозрачность	публичное	14	Наблюдение Сириуса. Объяснение двойных звездных систем.
 9	2026-01-30	23:30:00	3	10	2	ясно	фотосессия	2	Астрофотография Крабовидной туманности. Экспозиция 30 минут.
 10	2026-01-31	21:30:00	2	12	5	небольшая дымка	публичное	9	Наблюдение Венеры в фазе. Видна серповидная форма планеты.
+11	2026-05-10	23:00:46.150131	1	1	2		публичное	1	
 \.
 
 
@@ -686,13 +687,14 @@ COPY public.program_objects (id, program_id, object_id, order_in_program) FROM s
 --
 
 COPY public.programs (id, title, theme, duration, age_rating, description, price, is_active) FROM stdin;
-1	Путешествие по Солнечной системе	Солнечная система	45	6+	Увлекательное путешествие от Солнца к внешним границам нашей планетной системы. Изучение всех восьми планет и их особенностей.	500.00	t
 2	Тайны дальнего космоса	дальний космос	60	12+	Погружение в глубины Вселенной: галактики, туманности, черные дыры и квазары. Современные космические открытия.	600.00	t
 3	Звездное небо для малышей	детская программа	30	0+	Первое знакомство с астрономией для самых маленьких. Истории о созвездиях и планетах в игровой форме.	350.00	t
 4	История астрономии: от древности до наших дней	история астрономии	50	12+	Как менялись представления человечества о космосе. От древних обсерваторий до современных телескопов.	550.00	t
 5	Живое небо: наблюдаем сегодня	специальная программа	40	6+	Актуальная карта звездного неба на сегодняшний день. Что можно увидеть в телескоп сегодня вечером.	450.00	t
 6	Космические миссии XXI века	специальная программа	55	12+	Современные космические программы: Mars Rover, телескоп James Webb, миссии к спутникам Сатурна и Юпитера.	600.00	t
 7	Мифы и легенды звездного неба	детская программа	40	6+	Древнегреческие мифы о созвездиях. Истории героев, запечатленных на небосводе.	400.00	t
+1	Путешествие по Солнечной системе	Солнечная система	45	6+	Увлекательное путешествие от Солнца к внешним границам нашей планетной системы. Изучение всех восьми планет и их особенностей.	500.00	t
+16	NEW	Солнечная система	50	6+	Description	550.00	f
 \.
 
 
@@ -805,7 +807,7 @@ SELECT pg_catalog.setval('public.employees_id_seq', 9, true);
 -- Name: observations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.observations_id_seq', 10, true);
+SELECT pg_catalog.setval('public.observations_id_seq', 11, true);
 
 
 --
@@ -819,7 +821,7 @@ SELECT pg_catalog.setval('public.program_objects_id_seq', 27, true);
 -- Name: programs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.programs_id_seq', 14, true);
+SELECT pg_catalog.setval('public.programs_id_seq', 16, true);
 
 
 --
@@ -1184,6 +1186,14 @@ GRANT ALL ON TABLE public.observations TO urania_admin;
 
 
 --
+-- Name: SEQUENCE observations_id_seq; Type: ACL; Schema: public; Owner: postgres
+--
+
+GRANT USAGE ON SEQUENCE public.observations_id_seq TO urania_manager;
+GRANT USAGE ON SEQUENCE public.observations_id_seq TO urania_admin;
+
+
+--
 -- Name: TABLE program_objects; Type: ACL; Schema: public; Owner: postgres
 --
 
@@ -1199,6 +1209,14 @@ GRANT ALL ON TABLE public.program_objects TO urania_admin;
 GRANT SELECT ON TABLE public.programs TO urania_viewer;
 GRANT SELECT,INSERT,UPDATE ON TABLE public.programs TO urania_manager;
 GRANT ALL ON TABLE public.programs TO urania_admin;
+
+
+--
+-- Name: SEQUENCE programs_id_seq; Type: ACL; Schema: public; Owner: postgres
+--
+
+GRANT USAGE ON SEQUENCE public.programs_id_seq TO urania_manager;
+GRANT USAGE ON SEQUENCE public.programs_id_seq TO urania_admin;
 
 
 --
@@ -1241,5 +1259,5 @@ GRANT ALL ON TABLE public.visitors TO urania_admin;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict NcFnhyOwMfvdROZXgNLmJrHSzk1SqiPTmMhQ9uezqekoHpgjTzCfYkKgzkDAvnd
+\unrestrict BgpwSenhQPRQLyKBskreVbl33CVX1eTPpjecytOmIYiMRBRvEi1laeXlrqoM1ll
 
