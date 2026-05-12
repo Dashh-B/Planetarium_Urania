@@ -53,8 +53,8 @@ public class ProgramForm : Form
         cmbTheme = UIFactory.CreateComboBox(20, 160, 260);
         cmbTheme.Items.AddRange(new object[]
         {
-            "Солнечная система", "Дальний космос", "История астрономии",
-            "Детская программа", "Специальная программа"
+            "Солнечная система", "дальний космос", "история астрономии",
+            "детская программа", "специальная программа"
         });
         Controls.Add(cmbTheme);
 
